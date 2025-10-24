@@ -230,7 +230,7 @@ void qr_algorithm(double A[N][N], double eigenvalues[N], int *iterations) {
             extract_complex_eigenvalues(B, &lambda1, &lambda2);
             printf("Комплексные собственные значения: %.6f + %.6fi, %.6f %.6fi\n",
                    creal(lambda1), cimag(lambda1), creal(lambda2), cimag(lambda2));
-            i++;  /
+            i++;
         } else {
             printf("Вещественное собственное значение: %.8f\n", Ak[i][i]);
         }
